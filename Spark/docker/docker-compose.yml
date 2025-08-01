@@ -1,0 +1,8 @@
+# Spark/ docker/ docker-compose.yml
+
+version: "3.8"
+
+services:
+  spark_streamer:
+    build: .
+    restart: unless-stopped
