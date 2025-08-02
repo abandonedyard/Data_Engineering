@@ -32,7 +32,6 @@ This project uses Apache Airflow to automatically detect minute-long price spike
    pip install -r requirements.txt
 4. Copy the environment template and fill in your credentials:
    cp .env.template .env
-   # then edit .env to add BINANCE_API_KEY, BINANCE_API_SECRET, SLACK_WEBHOOK_URL, etc.
 5. Initialize the PostgreSQL database:
    psql -U your_user -d your_db -f scripts/init_db.sql
 
