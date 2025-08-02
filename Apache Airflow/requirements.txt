@@ -1,1 +1,8 @@
+apache-airflow>=2.5.0
+apache-airflow-providers-http
+apache-airflow-providers-postgres
+python-binance>=1.0.17
+psycopg2-binary>=2.9.5
+requests>=2.28.0
+python-dotenv>=1.0.0
  
