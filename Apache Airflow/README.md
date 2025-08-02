@@ -26,12 +26,16 @@ This project uses Apache Airflow to automatically detect minute-long price spike
    git clone https://github.com/yourname/apache-airflow.git
    cd apache-airflow
 2. Create and activate a virtual environment:
+   ```bash
    python3 -m venv venv
    source venv/bin/activate
-3. Install Python dependencies:
+4. Install Python dependencies:
+   ```bash
    pip install -r requirements.txt
-4. Copy the environment template and fill in your credentials:
+5. Copy the environment template and fill in your credentials:
+   ```bash
    cp .env.template .env
-5. Initialize the PostgreSQL database:
+6. Initialize the PostgreSQL database:
+   ```bash
    psql -U your_user -d your_db -f scripts/init_db.sql
 
